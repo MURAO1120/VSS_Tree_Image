@@ -14,16 +14,19 @@ vss-tree/
 # 使い方
 ## 1.gidpodを起動
 githubのURLの先頭に以下を付け加える
+```
 https://gitpod.io/#
-
+```
 ## 2.必要なパッケージをインストール
-sudo apt-get update
+```
+sudo apt-get update 
 sudo apt-get install -y graphviz
 pip install graphviz
-
+```
 ## 3.pythonファイルを実行
+```
 python vss_draw.py vss_1.json vss_vehicle.pdf Vehicle
-
+```
 ## 4.pdfをダウンロードする
 
 
