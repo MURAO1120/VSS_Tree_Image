@@ -9,7 +9,8 @@ gitpod上での動作検証済み
 vss-tree/
 ├── Containerfile         # ランタイムのみを入れたベースイメージ
 ├── vss_draw.py           # 可視化ロジック
-├── vss.json              # jsonで書かれたVSS ツリー ファイル
+├── data/
+│   └── vss.json          # jsonで書かれたVSS ツリー ファイル
 ```
 # 使い方
 ## 1.gidpodを起動
@@ -25,7 +26,7 @@ pip install graphviz
 ```
 ## 3.pythonファイルを実行
 ```
-python vss_draw.py vss_1.json vss_vehicle.pdf Vehicle
+python vss_draw.py data/vss.json vss_vehicle.pdf Vehicle
 ```
 ## 4.pdfをダウンロードする
 
